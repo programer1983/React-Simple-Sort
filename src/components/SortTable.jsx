@@ -3,10 +3,11 @@ import MokData from "./../MOCK_DATA.json"
 
 export default function SortTable() {
   const [data, setData] = useState(MokData)
+  const [order, setOrder] = useState("ASC")
 
   return (
-    <div>
-      <table>
+    <div className="container">
+      <table className="table table-bordered">
         <thead>
           <th>First Name</th>
           <th>Last Name</th>

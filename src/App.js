@@ -1,10 +1,10 @@
-
+import SortTable from './components/SortTable';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      hello
+      <SortTable />
     </div>
   );
 }
